@@ -1,0 +1,324 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600;700&family=Dancing+Script:wght@700&family=Roboto&display=swap');
+/* font-family: 'Cairo', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Roboto', sans-serif; */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.section1{
+    width: 100%;
+    height: 900px;
+    background-image: url(img/images.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+    background-attachment: fixed;
+    text-align: center;
+    
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+.logo{
+    color: white;
+    font-family: 'Cairo', sans-serif;
+    font-size: 40px;
+    padding-left: 10px;
+}
+nav ul li{
+    display: inline;
+    text-transform: capitalize;
+}
+nav ul li a{
+    text-decoration: none;
+    justify-content: space-between;
+    padding:  15px;
+    padding-top: 10px;
+    color: white;
+    font-size: 20px;   
+}
+.text1{
+    text-align: center;
+}
+ .text h1{
+    text-align: center;
+    color: white;
+    font-family: 'Cairo', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 50vh;
+    font-weight: 40px;
+}
+span{
+    color: yellow;
+}
+.section1 p{
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin-left: 200px;
+}
+.but{
+
+    padding: 50px;
+}
+.section1 button{
+    padding: 15px;
+    width: 150px;
+    margin-right: 20px;
+    color: white;
+    margin-top: 70px;
+}
+ .but1{
+    background-color: rgba(128, 128, 128, 0.8);
+    border: 1px solid white ;
+}
+.but2{
+    background-color: yellow;
+    border: 1px solid yellow;
+}
+.but2:hover{
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+}
+.section2{
+    width: 100%;
+    height: 100vh;
+    
+    text-align: center;
+    
+}
+h2{
+    padding: 40px;
+    font-size: 30px;
+}
+.section2 p{
+    color: rgba(0, 0, 0, 0.512);
+  
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+.img{
+    margin-top: 50px;
+}
+ .section2 .img img{
+    padding: 0px 20px;
+}
+.section3{
+    width: 100%;
+    height: 400px;
+    background-color: whitesmoke;
+}
+.text2{
+    padding-top: 40px;
+    text-align: center;
+}
+.text2 h2{
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.text2 p{
+    color: rgba(128, 128, 128, 0.493);
+}
+.img2{
+    margin-top: 20px;
+}
+.section4{
+    background-color: rgb(182, 115, 244);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+.section4 h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 20px;
+}
+.section4 img{
+    border-radius: 50%;
+}
+.section4 .border{ 
+    border:rgba(128, 13, 237,0.7) 3px solid;
+    
+    margin-left: 70px;
+    margin-right:70px;
+    font-family: 'Cairo', sans-serif;
+    
+}
+.section4 .border p{
+    padding: 30px;
+}
+.section5{
+    width: 100%;
+    height: 800px;
+    background-color: #212f36;
+    padding: 1px;
+    text-align: center;
+}
+.section5 h1{
+    padding-top: 50px;
+    color: white;
+    font-family: 'Cairo', sans-serif;
+     font-size: 40px;
+}
+.section5 p{
+    color: rgba(255, 255, 255, 0.827);
+}
+.section5 button{
+    background-color: rgb(245, 245, 69);
+    border: 1px solid rgb(245, 245, 69)  ;
+    margin-top: 30px;
+    
+    width: 150px;
+    padding:  15px ;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.section5 button:hover{
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    cursor: grab;
+}
+.section5 button i{
+    padding: 0px 10px;
+}
+.section5 .header{
+    
+    width: 80%;
+    margin: auto;
+}
+.section5 .header .item{
+    width: 50%;
+    height: 200px;
+    padding: 20px ;
+    
+}
+.section5 .header .item h4{
+    padding-top: 20px;
+}
+.section5 .header .item p{
+    color: rgba(0, 0, 0, 0.303);
+    padding-top: 20px;
+}
+.section5 .header .item a i{
+    color: yellow;
+    text-decoration: none;
+    padding-top: 20px;
+}
+.section5 .header .item a i:hover{
+    color: blueviolet;
+}
+.section6{
+    background-color: rgba(240, 248, 255, 0.732);
+    width: 100%;
+    height: 600px;
+}
+.section6 .text6{
+    text-align: center;
+    padding-top: 40px;
+}
+.section6 .text6 h1{
+    font-size: 40px;
+}
+.section6 .text6 p{
+    padding: 10px;
+    color: #212f369d;
+}
+.section6 .items{
+    
+    width: 100%;
+    float: left;
+    margin:  auto ;
+    margin-right: 30px;
+    padding: 100px;
+    
+}
+.section6 .items img{
+    border-radius: 50%;
+    
+}
+.section6 .items .img6{
+    float: left;
+    width: 10%;
+    padding-right: 10px;
+    
+}
+.section6 .items .dec{
+    float: left;
+    width: 15%;
+    padding: 2%;
+    
+}
+.section6 .items .dec h5{
+    color: darkred;
+    padding-top: 10px;
+}
+.section6 .items .dec p{
+    color: rgba(169, 169, 169, 0.93);
+    padding-top: 20px;
+}
+.section7{
+    width: 100%;
+    height: 800px;
+    background-color: whitesmoke;
+}
+.section7 h1{
+    text-align: center;
+    padding: 40px;
+}
+form{
+    display: block;
+    padding: 20px;
+}
+label{
+    display: inline-block;
+}
+form input{
+    width: 25%;
+    display: inline block;
+    
+    
+}
+textarea{
+    width: 100%;
+    height: 300px;
+}
+ .sub{
+    background-color: yellow;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+  
+}
+.section8{
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.592);
+    color: white;
+}
+.section8 thead th{
+    padding: 40px;
+}
+.section8 tbody td{
+    padding: 10px 40px ;
+}
+.section8 td{
+    padding:   40px;
+}
+.logo2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 400pxpx;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
